@@ -1,4 +1,4 @@
-<div align="center"><a href="https://nettlerevived.pages.dev/" target="_blank" rel="noopener nofollow"><img src="https://nettlerevived.pages.dev/logo.svg" width="768" height="256" draggable="false" alt="NettleRevived Logo" /></a></div>
+<div align="center"><a href="https://nettlerevived.pages.dev/" target="_blank" rel="noopener nofollow"><img src="https://nettlerevived.pages.dev/res/logo.svg" width="768" height="256" draggable="false" alt="NettleRevived Logo" /></a></div>
 
 # NettleRevived
 [![Discord Shield](https://img.shields.io/discord/998658232207814667?style=for-the-badge&logo=Discord&logoColor=%23ffffff&label=Discord&labelColor=%23303030&color=%23004080
