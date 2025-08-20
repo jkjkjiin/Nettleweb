@@ -1,10 +1,10 @@
-<div align="center"><a href="https://nettleweb.com/" target="_blank" rel="noopener nofollow"><img src="https://nettleweb.com/res/logo.svg" width="768" height="256" draggable="false" alt="NettleWeb Logo" /></a></div>
+<div align="center"><a href="https://nettlerevived.pages.dev/" target="_blank" rel="noopener nofollow"><img src="https://nettlerevived.pages.dev/logo.svg" width="768" height="256" draggable="false" alt="NettleRevived Logo" /></a></div>
 
-# NettleWeb
+# NettleRevived
 [![Discord Shield](https://img.shields.io/discord/998658232207814667?style=for-the-badge&logo=Discord&logoColor=%23ffffff&label=Discord&labelColor=%23303030&color=%23004080
 )](https://discord.gg/djdH3kVd4v) [![Version](https://img.shields.io/github/manifest-json/v/midtvu/nettlerevived?style=for-the-badge&label=Version&labelColor=%23303030)](https://nettlerevived.pages.dev/) [![Last Update](https://img.shields.io/github/last-commit/midtvu/nettlerevived?style=for-the-badge&label=Last%20Update&labelColor=%23303030&color=%23004080)](https://nettleweb.com/)
 
-*The free, maintained, open source unblocked online community platform*
+*The free, open source unblocked online community platform revival project*
 
 [Main Link](https://nettlerevived.pages.dev/) | [Wiki](../../wiki) | [Old Links](../../wiki/Mirror-Links) | [Discord (NOT RUN BY ME)](https://discord.gg/djdH3kVd4v)
 
