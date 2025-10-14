@@ -53,3 +53,17 @@ This project was made possible with the support of the following open-source lib
 - [node-llama-cpp](https://github.com/withcatai/node-llama-cpp) - llama.cpp node.js bindings
 - [NettleWeb Core](https://github.com/nettleweb/nettleweb-core)
 - [emoji-picker-element](https://github.com/nolanlawson/emoji-picker-element) - Lightweight HTML emoji picker
+
+### proxy setup:
+```
+npm install
+npm run build
+node .
+```
+### Proxy + server combined command (optional:
+```
+npm install --save-dev concurrently
+```
+```
+npm run dev
+```
