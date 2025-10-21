@@ -58,7 +58,7 @@ This project was made possible with the support of the following open-source lib
 ```
 npm install
 npm run build
-node .
+node server.js
 ```
 ### Proxy + server combined command (optional:
 ```
