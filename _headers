@@ -15,5 +15,4 @@
 /ext/console/
 	Content-Type: application/xhtml+xml
 
-/res/pay.json
-	Link: </res/pay.json>; rel="payment-method-manifest"
+/* Payment manifest removed - no longer used */
