@@ -2,7 +2,7 @@
 
 # NettleRevived
 [![Discord Shield](https://img.shields.io/discord/998658232207814667?style=for-the-badge&logo=Discord&logoColor=%23ffffff&label=Discord&labelColor=%23303030&color=%23004080
-)](https://discord.gg/djdH3kVd4v) [![Version](https://img.shields.io/github/manifest-json/v/midtvu/nettlerevived?style=for-the-badge&label=Version&labelColor=%23303030)](https://nettlerevived.pages.dev/) [![Last Update](https://img.shields.io/github/last-commit/midtvu/nettlerevived?style=for-the-badge&label=Last%20Update&labelColor=%23303030&color=%23004080)](https://nettleweb.com/)
+)](https://discord.gg/djdH3kVd4v) [![Version](https://img.shields.io/github/manifest-json/v/midtvu/nettlerevived?style=for-the-badge&label=Version&labelColor=%23303030)](https://nettlerevived.pages.dev/) [![Last Update](https://img.shields.io/github/last-commit/jkjkjiin/Nettleweb?style=for-the-badge&label=Last%20Update&labelColor=%23303030&color=%23004080)](https://nettleweb.com/)
 
 *The free, open source unblocked online community platform revival project*
 
