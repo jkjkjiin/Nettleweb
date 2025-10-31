@@ -1798,9 +1798,9 @@ var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file
     function openInNewTab() {
       var newTab = window.open("about:blank", "_blank");
       var iframe = document.createElement("iframe");
-      iframe.style =
-        "position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; user-select: none;";
+      iframe.style = position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; user-select: none;";
       iframe.src = "<?xml version="1.0" encoding="utf-8" ?>
+     const htmlContent = `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
@@ -1896,7 +1896,7 @@ var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file
 		</div>
 		<script type="text/javascript" src="main.js" blocking="render"></script>
 	</body>
-</html>"
+   </html>`;
         
       newTab.document.body.appendChild(iframe);
       setTimeout(function() {
