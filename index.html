@@ -1800,8 +1800,104 @@ var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file
       var iframe = document.createElement("iframe");
       iframe.style =
         "position: fixed; top: 0; left: 0; width: 100%; height: 100%; border: none; user-select: none;";
-      iframe.src = "data:text/html;charset=utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%20%3F%3E%0A%3C!DOCTYPE%20html%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20XHTML%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FTR%2Fxhtml11%2FDTD%2Fxhtml11.dtd%22%3E%0A%3Chtml%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20lang%3D%22en%22%3E%0A%09%3Chead%3E%0A%09%09%3Cmeta%20charset%3D%22utf-8%22%20%2F%3E%0A%09%09%3Cmeta%20http-equiv%3D%22Content-Security-Policy%22%20content%3D%22base-uri%20'self'%3B%20font-src%20'self'%3B%20script-src%20'self'%3B%20worker-src%20'self'%3B%20form-action%20'self'%3B%20connect-src%20'self'%20wss%3A%20https%3A%3B%20manifest-src%20'self'%3B%20script-src-attr%20'self'%3B%20script-src-elem%20'self'%3B%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22referrer%22%20content%3D%22no-referrer%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2Cinitial-scale%3D1%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22theme-color%22%20content%3D%22%23004080%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22application-name%22%20content%3D%22NettleWeb%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22mobile-web-app-capable%22%20content%3D%22yes%22%20%2F%3E%0A%09%09%3Cmeta%20name%3D%22apple-mobile-web-app-capable%22%20content%3D%22yes%22%20%2F%3E%0A%09%09%3Cbase%20href%3D%22%2F%22%20target%3D%22_blank%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22icon%22%20type%3D%22image%2Fx-icon%22%20href%3D%22favicon.ico%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22manifest%22%20type%3D%22application%2Fjson%22%20href%3D%22manifest.json%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20type%3D%22text%2Fcss%22%20href%3D%22index.css%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22apple-touch-icon%22%20type%3D%22image%2Fsvg%2Bxml%22%20href%3D%22res%2Flogo3.svg%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22canonical%22%20href%3D%22https%3A%2F%2Fnettleweb.com%2F%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22privacy-policy%22%20href%3D%22https%3A%2F%2Fnettleweb.com%2Fprivacy%22%20%2F%3E%0A%09%09%3Clink%20rel%3D%22terms-of-service%22%20href%3D%22https%3A%2F%2Fnettleweb.com%2Fterms%22%20%2F%3E%0A%09%09%3Ctitle%3ENettleWeb%3C%2Ftitle%3E%0A%09%3C%2Fhead%3E%0A%09%3Cbody%3E%0A%09%09%3Cheader%3E%0A%09%09%09%3Cdiv%20id%3D%22logo%22%3E%3C%2Fdiv%3E%0A%09%09%09%3Cdiv%20id%3D%22status%22%3E%3C%2Fdiv%3E%0A%09%09%09%3Cdiv%20id%3D%22version%22%3E%3C%2Fdiv%3E%0A%09%09%09%3Cinput%20id%3D%22side-menu%22%20type%3D%22checkbox%22%20%2F%3E%0A%09%09%09%3Clabel%20for%3D%22side-menu%22%20id%3D%22hamb%22%3EMenu%3C%2Flabel%3E%0A%09%09%09%3Cnav%3E%0A%09%09%09%09%3Cul%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22home-btn%22%20type%3D%22button%22%3EHome%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22game-btn%22%20type%3D%22button%22%3EGames%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22strm-btn%22%20type%3D%22button%22%3EVideos%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22apps-btn%22%20type%3D%22button%22%3EApps%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22chat-btn%22%20type%3D%22button%22%3EChat%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%09%3Cli%3E%3Cbutton%20id%3D%22info-btn%22%20type%3D%22button%22%3EAbout%20%26amp%3B%20FAQ%3C%2Fbutton%3E%3C%2Fli%3E%0A%09%09%09%09%3C%2Ful%3E%0A%09%09%09%3C%2Fnav%3E%0A%09%09%09%3Cbutton%20id%3D%22accn-btn%22%20type%3D%22button%22%20title%3D%22Login%22%3E%3C%2Fbutton%3E%0A%09%09%09%3Cbutton%20id%3D%22nmsg-btn%22%20type%3D%22button%22%20title%3D%22Notifications%22%3E%3C%2Fbutton%3E%0A%09%09%3C%2Fheader%3E%0A%09%09%3Cdiv%20id%3D%22loading%22%3ELoading...%3C%2Fdiv%3E%0A%09%09%3Cdiv%20id%3D%22content%22%3E%0A%09%09%09%3Cmain%20id%3D%22content-page%22%3E%0A%09%09%09%09%3Ch1%3ENettleWeb%20-%20Your%20ultimate%20internet%20hub!%3C%2Fh1%3E%0A%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fnettleweb.com%2F%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EMain%20Website%3C%2Fa%3E%0A%09%09%09%3C%2Fmain%3E%0A%09%09%09%3Cfooter%3E%0A%09%09%09%09%3Cdiv%3E%0A%09%09%09%09%09%3Cdiv%3E%0A%09%09%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fgithub.com%2Fnettleweb%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3E%3Cimg%20src%3D%22res%2Fgithub.svg%22%20width%3D%2236%22%20height%3D%2236%22%20loading%3D%22lazy%22%20decoding%3D%22async%22%20draggable%3D%22false%22%20alt%3D%22GitHub%22%20title%3D%22GitHub%22%20%2F%3E%3C%2Fa%3E%0A%09%09%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fdiscord.gg%2FdjdH3kVd4v%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3E%3Cimg%20src%3D%22res%2Fdiscord.svg%22%20width%3D%2236%22%20height%3D%2236%22%20loading%3D%22lazy%22%20decoding%3D%22async%22%20draggable%3D%22false%22%20alt%3D%22Discord%22%20title%3D%22Discord%22%20%2F%3E%3C%2Fa%3E%0A%09%09%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fwww.youtube.com%2F%40nettleweb%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3E%3Cimg%20src%3D%22res%2Fyoutube.svg%22%20width%3D%2236%22%20height%3D%2236%22%20loading%3D%22lazy%22%20decoding%3D%22async%22%20draggable%3D%22false%22%20alt%3D%22YouTube%22%20title%3D%22YouTube%22%20%2F%3E%3C%2Fa%3E%0A%09%09%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fwww.facebook.com%2Fnettleweb%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3E%3Cimg%20src%3D%22res%2Ffacebook.svg%22%20width%3D%2236%22%20height%3D%2236%22%20loading%3D%22lazy%22%20decoding%3D%22async%22%20draggable%3D%22false%22%20alt%3D%22Facebook%22%20title%3D%22Facebook%22%20%2F%3E%3C%2Fa%3E%0A%09%09%09%09%09%09%3Ca%20href%3D%22https%3A%2F%2Fwww.instagram.com%2Fnettleweb%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3E%3Cimg%20src%3D%22res%2Finstagram.svg%22%20width%3D%2236%22%20height%3D%2236%22%20loading%3D%22lazy%22%20decoding%3D%22async%22%20draggable%3D%22false%22%20alt%3D%22Instagram%22%20title%3D%22Instagram%22%20%2F%3E%3C%2Fa%3E%0A%09%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%09%3Cdiv%3E%26%23xa9%3B2025%20NettleWeb%20Development%20Team%3B%20All%20rights%20reserved.%3C%2Fdiv%3E%0A%09%09%09%09%09%3Cdiv%3EWe%20are%20working%20hard%20to%20improve%20your%20user%20experience.%3C%2Fdiv%3E%0A%09%09%09%09%09%3Cdiv%3E%3Cb%3ELiberty%3C%2Fb%3E%20-%20%3Cb%3EPrivacy%3C%2Fb%3E%20-%20%3Cb%3ECommunity%3C%2Fb%3E%3C%2Fdiv%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3Cdiv%3E%0A%09%09%09%09%09%3Ch2%3ESupport%3C%2Fh2%3E%0A%09%09%09%09%09%3Cul%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22https%3A%2F%2Fnettleweb.com%2Fhelp%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EGet%20help%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22mailto%3Asupport%40nettleweb.com%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EContact%20us%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22https%3A%2F%2Fnettleweb.com%2Freportbug%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EReport%20an%20issue%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%3C%2Ful%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%09%3Cdiv%3E%0A%09%09%09%09%09%3Ch2%3EPolicies%3C%2Fh2%3E%0A%09%09%09%09%09%3Cul%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22mailto%3Aadmin%40nettleweb.com%3Fsubject%3DReport%2520Content%2520Abuse%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EReport%20abuse%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22https%3A%2F%2Fnettleweb.com%2Fprivacy%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EPrivacy%20Policy%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%09%3Cli%3E%3Ca%20href%3D%22https%3A%2F%2Fnettleweb.com%2Fterms%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ETerms%20of%20Service%3C%2Fa%3E%3C%2Fli%3E%0A%09%09%09%09%09%3C%2Ful%3E%0A%09%09%09%09%3C%2Fdiv%3E%0A%09%09%09%3C%2Ffooter%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3Cdiv%20id%3D%22error%22%3EError%20Message%3C%2Fdiv%3E%0A%09%09%3Cnoscript%3E%3Cdiv%3EError%3A%20This%20page%20could%20not%20function%20unless%20JavaScript%20is%20supported%20and%20enabled%20in%20your%20browser.%3C%2Fdiv%3E%3C%2Fnoscript%3E%0A%09%09%3Cbutton%20id%3D%22install%22%20type%3D%22button%22%3E%3Cspan%3EInstall%20App%3C%2Fspan%3E%3C%2Fbutton%3E%0A%09%09%3Cbutton%20id%3D%22settings%22%20type%3D%22button%22%20title%3D%22Settings%22%3E%3C%2Fbutton%3E%0A%09%09%3Cdiv%20id%3D%22overlay%22%3E%3C%2Fdiv%3E%0A%09%09%3Cdiv%20id%3D%22nwidget%22%3E%0A%09%09%09%3Ch2%3ENotifications%3C%2Fh2%3E%0A%09%09%09%3Cdiv%20id%3D%22notif%22%3E%3C%2Fdiv%3E%0A%09%09%09%3Cbutton%20id%3D%22nclear%22%20type%3D%22button%22%3EClear%20All%3C%2Fbutton%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3Cdiv%20id%3D%22frame-view%22%3E%0A%09%09%09%3Cdiv%20id%3D%22frame%22%3E%3C%2Fdiv%3E%0A%09%09%09%3Cbutton%20id%3D%22frame-close%22%20type%3D%22button%22%20title%3D%22Close%22%3E%3C%2Fbutton%3E%0A%09%09%09%3Cbutton%20id%3D%22frame-expand%22%20type%3D%22button%22%20title%3D%22Enter%20fullscreen%22%3E%3C%2Fbutton%3E%0A%09%09%3C%2Fdiv%3E%0A%09%09%3Cscript%20type%3D%22text%2Fjavascript%22%20src%3D%22main.js%22%20blocking%3D%22render%22%3E%3C%2Fscript%3E%0A%09%3C%2Fbody%3E%0A%3C%2Fhtml%3E";
-
+      iframe.src = "<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; font-src 'self'; script-src 'self'; worker-src 'self'; form-action 'self'; connect-src 'self' wss: https:; manifest-src 'self'; script-src-attr 'self'; script-src-elem 'self';" />
+		<meta name="referrer" content="no-referrer" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="theme-color" content="#004080" />
+		<meta name="application-name" content="NettleWeb" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<base href="/" target="_blank" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="manifest" type="application/json" href="manifest.json" />
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel="apple-touch-icon" type="image/svg+xml" href="res/logo3.svg" />
+		<link rel="canonical" href="https://nettleweb.com/" />
+		<link rel="privacy-policy" href="https://nettleweb.com/privacy" />
+		<link rel="terms-of-service" href="https://nettleweb.com/terms" />
+		<title>NettleWeb</title>
+	</head>
+	<body>
+		<header>
+			<div id="logo"></div>
+			<div id="status"></div>
+			<div id="version"></div>
+			<input id="side-menu" type="checkbox" />
+			<label for="side-menu" id="hamb">Menu</label>
+			<nav>
+				<ul>
+					<li><button id="home-btn" type="button">Home</button></li>
+					<li><button id="game-btn" type="button">Games</button></li>
+					<li><button id="strm-btn" type="button">Videos</button></li>
+					<li><button id="apps-btn" type="button">Apps</button></li>
+					<li><button id="chat-btn" type="button">Chat</button></li>
+					<li><button id="info-btn" type="button">About &amp; FAQ</button></li>
+				</ul>
+			</nav>
+			<button id="accn-btn" type="button" title="Login"></button>
+			<button id="nmsg-btn" type="button" title="Notifications"></button>
+		</header>
+		<div id="loading">Loading...</div>
+		<div id="content">
+			<main id="content-page">
+				<h1>NettleWeb - Your ultimate internet hub!</h1>
+				<a href="https://nettleweb.com/" target="_blank" rel="noopener">Main Website</a>
+			</main>
+			<footer>
+				<div>
+					<div>
+						<a href="https://github.com/nettleweb" target="_blank" rel="noopener"><img src="res/github.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="GitHub" title="GitHub" /></a>
+						<a href="https://discord.gg/djdH3kVd4v" target="_blank" rel="noopener"><img src="res/discord.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Discord" title="Discord" /></a>
+						<a href="https://www.youtube.com/@nettleweb" target="_blank" rel="noopener"><img src="res/youtube.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="YouTube" title="YouTube" /></a>
+						<a href="https://www.facebook.com/nettleweb" target="_blank" rel="noopener"><img src="res/facebook.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Facebook" title="Facebook" /></a>
+						<a href="https://www.instagram.com/nettleweb" target="_blank" rel="noopener"><img src="res/instagram.svg" width="36" height="36" loading="lazy" decoding="async" draggable="false" alt="Instagram" title="Instagram" /></a>
+					</div>
+					<div>&#xa9;2025 NettleWeb Development Team; All rights reserved.</div>
+					<div>We are working hard to improve your user experience.</div>
+					<div><b>Liberty</b> - <b>Privacy</b> - <b>Community</b></div>
+				</div>
+				<div>
+					<h2>Support</h2>
+					<ul>
+						<li><a href="https://nettleweb.com/help" target="_blank" rel="noopener">Get help</a></li>
+						<li><a href="mailto:support@nettleweb.com" target="_blank" rel="noopener">Contact us</a></li>
+						<li><a href="https://nettleweb.com/reportbug" target="_blank" rel="noopener">Report an issue</a></li>
+					</ul>
+				</div>
+				<div>
+					<h2>Policies</h2>
+					<ul>
+						<li><a href="mailto:admin@nettleweb.com?subject=Report%20Content%20Abuse" target="_blank" rel="noopener">Report abuse</a></li>
+						<li><a href="https://nettleweb.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
+						<li><a href="https://nettleweb.com/terms" target="_blank" rel="noopener">Terms of Service</a></li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+		<div id="error">Error Message</div>
+		<noscript><div>Error: This page could not function unless JavaScript is supported and enabled in your browser.</div></noscript>
+		<button id="install" type="button"><span>Install App</span></button>
+		<button id="settings" type="button" title="Settings"></button>
+		<div id="overlay"></div>
+		<div id="nwidget">
+			<h2>Notifications</h2>
+			<div id="notif"></div>
+			<button id="nclear" type="button">Clear All</button>
+		</div>
+		<div id="frame-view">
+			<div id="frame"></div>
+			<button id="frame-close" type="button" title="Close"></button>
+			<button id="frame-expand" type="button" title="Enter fullscreen"></button>
+		</div>
+		<script type="text/javascript" src="main.js" blocking="render"></script>
+	</body>
+</html>"
+        
       newTab.document.body.appendChild(iframe);
       setTimeout(function() {
         window.location.href = "https://nasa.gov";
