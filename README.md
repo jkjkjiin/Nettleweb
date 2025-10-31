@@ -15,6 +15,8 @@ NettleRevived is not an original project. NettleRevived exists to continue the N
 
 NettleRevived is, and will always be, free and open-source. You can however show us your care by giving a star or contributing to this project (see the contributing section below for details). It will significantly improve the project's future development.
 
+### NettleRevived use nasa cloak when on index.html to be redirected to proxy page hold shift and this key ` to get this key ~ and it will automaticly redirect in about:blank to proxy cloaked and disquised as a nasa wesbite this is using the same cloaking power that my bolt proxy uses and this is next gen cloaking power.
+
 ## Features
 - **Chat** - Server/DM/Groups/AI Chat
 - **Games** - 5000+, HTML5/Flash/DOS
