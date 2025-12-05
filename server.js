@@ -1,34 +1,40 @@
 const express = require('express');
+const path = require('path');
 const cors = require('cors');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const PORT = process.env.PORT || 8080;
-// Target to proxy to, e.g. http://localhost:3000
 const PROXY_TARGET = process.env.PROXY_TARGET || 'http://localhost:3000';
-// Path to match for proxying
 const PROXY_PATH = process.env.PROXY_PATH || '/api';
 
 const app = express();
 
 app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send('Nettleweb proxy server running. Proxying ' + PROXY_PATH + ' -> ' + PROXY_TARGET);
+// Serve static files from repo root
+app.use(express.static(path.join(__dirname), { index: false }));
+
+// Serve index.html for / and /index.html
+app.get(['/', '/index.html'], (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+// Fallback: serve index.html for all other GET requests that accept HTML
+app.use((req, res, next) => {
+  if (req.method === 'GET' && (req.headers.accept || '').includes('text/html')) {
+    return res.sendFile(path.join(__dirname, 'index.html'));
+  }
+  next();
+});
+
+// Proxy API requests
 app.use(PROXY_PATH, createProxyMiddleware({
   target: PROXY_TARGET,
   changeOrigin: true,
   logLevel: 'warn',
-  onProxyReq(proxyReq, req, res) {
-    // You can add headers or logging here if needed
-  },
 }));
 
 app.listen(PORT, () => {
   console.log(`Proxy server listening on http://0.0.0.0:${PORT}`);
   console.log(`Proxying ${PROXY_PATH} -> ${PROXY_TARGET}`);
 });
-
-// Graceful shutdown
-process.on('SIGINT', () => process.exit());
